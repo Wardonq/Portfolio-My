@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website - Rajath Krishna</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/9544c02778.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Network Engineer</p>
+            <h1>Hi, I'm <span>Rajath</span><br> Krishna From Kerala</h1>
+        </div>
+    </div>
+</div>
+<!-----------about--------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"></div>
+            <img src="images/us.png" alt="">
+            <div class="about-col-2"></div>
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                An enthusiastic Network Engineer with a strong base in Electronics and Communication Engineering,
+                 having a 3-year diploma in the same field; presently executing my skills as a Network Engineer at Railwire ICT.
+                  I have expertise in most programming languages like C, Java, Python, and MATLAB and also have practical experience in developing Embedded Systems. 
+                  Ethical Hacking Certified, CISSP, Udemy: can secure any network from potential threats by taking vigorous cybersecurity measures within. 
+                  Looking out for more chances to upgrade my skills and be part of some innovative projects on Networking and Cybersecurity.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Networking</span><br>Configuration and Maintanance/Troubleshooting/Technical Support/Continous Learning (eg.,Cisco CCNA)</li>
+                    <li><span>Programming Languages</span><br>C/C++/Java/html/Python</li>
+                    <li><span>Hacking</span><br>Ethical Hacking/Penetration Testing/IOT Security</li>
+                    <li><span>Electronics Engineering</span><br>Microprocessor and microcontrler/Embedded Systems/Digital Electronics/Communication System</li>
+                    <li><span>CISSP</span><br>Security Architecture and Engineering/Network Security/NMAP/Metaspolit/Cybersecurity</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 - Current </span><br>Network Engineer at Railwire ICT</li>
+                    <li><span>2022 - 2022</span><br>IOT Based Product Development Using Embedded Technology Internship at Laxmiinfotek
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>Diploma In Electronics Engineering From Gov. Polytechnic College Meenangadi</li>
+                    <li><span>2020</span><br>Plus Two maths Commerce From Gov. Model Higher Secondary School Vellamunda </li>
+                    <li><span>2018</span><br>THSLC In Electronics From Gov. Technical High School Mananthavady</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> If you require assistance in creating a professional
+                     web page for your company or personal use using HTML
+                      and CSS, please feel free to message me.</p>
+                <a href="https://formsubmit.co/el/nabife">Message Me</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                
+                <h2> Cyber Security
+                    </h2>
+                <p>I offer expertise in resolving issues related to social media 
+                    platforms, including password retrieval and recovery of compromised
+                     accounts.</p>
+                <a href="https://formsubmit.co/el/nabife">Message Me</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2> Networking
+                     </h2>
+                <p> I provide comprehensive technical support for configuring switches, 
+                    OLTs, and ONTs, alongside expertise in network security.
+                
+                </p>
+                <a href="https://formsubmit.co/el/nabife">Message Me</a>
+            </div>
+        </div>   
+    </div>
+ </div>
+ <!-- ----------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Project 1.jpeg">
+                <div class="layer">
+                    <h3>Gesture Vocalizer </h3>
+                    <p>Designed to facilitate communication among impaired individuals.
+                         Visit GitHub for access to the source code.
+
+                    </p>
+                        <a href="https://github.com/Wardonq/Gesture-Vocalizer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project 2.jpeg">
+                <div class="layer">
+                    <h3>Line Follower With Ultrasonic Sensor </h3>
+                    <p>Utilizes ultrasonic sensor for obstacle detection and precise navigation.
+                         Explore GitHub for implementation details.
+                    </p>
+                        <a href="https://github.com/wardonq/Line-Follower"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project 3.jpeg">
+                <div class="layer">
+                    <h3>Music App </h3>
+                    <p>
+                        Check out the Neumorphism Effect Music App on GitHub for a tactile,
+                         visually appealing interface with digital skeuomorphism and minimalistic
+                          design elements.
+                    </p>
+                        <a href="https://github.com/wardonq/neumorphism-effect-music-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Wardonq?tab=repositories" class="btn">See more</a>
+     </div>
+</div>
+<!-----------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <a href="mailto:rajathkrishna83@gmail.com"><i class="fa-solid fa-paper-plane"></i>rajathkrishna83@gmail.com </p></a>
+                <p> <a href="tel:9544004938"><i class="fa-solid fa-phone-square-alt"></i> +91 9544004938</p></a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rajath-krishna-3042a627a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/rajathhhhhhh?t=Nm7c_QuSOyy-0ufpKQIiaw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/rajathhhhhhh?igsh=aGh5YTNkM3FjaXli"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Wardonq"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/New Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xrbzbnlp" method="POST" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rajath Krishna, All rights reserved.</i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
